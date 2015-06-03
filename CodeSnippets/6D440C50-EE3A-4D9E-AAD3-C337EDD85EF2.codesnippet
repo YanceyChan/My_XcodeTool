@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>trimWhiteSpace</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>&lt;#NSString#&gt; = [&lt;#NSString#&gt; stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C0763843-71FE-41B0-B396-ECFE97C742AB</string>
+	<string>6D440C50-EE3A-4D9E-AAD3-C337EDD85EF2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>My weak property</string>
+	<string>Trim whitespace</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My weak property</string>
+	<string>My Trim WhiteSpace</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

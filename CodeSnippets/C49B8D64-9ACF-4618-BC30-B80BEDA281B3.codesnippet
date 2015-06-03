@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>regex</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>NSString *&lt;#regexString#&gt; = &lt;#regex#&gt;;
+
+NSPredicate *&lt;#predicate#&gt; = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", &lt;#regexString#&gt;];
+if (![&lt;#predicate#&gt; evaluateWithObject:&lt;#compareString#&gt;]) {
+        return NO;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C0763843-71FE-41B0-B396-ECFE97C742AB</string>
+	<string>C49B8D64-9ACF-4618-BC30-B80BEDA281B3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>My weak property</string>
+	<string>judge regex</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My weak property</string>
+	<string>My Regex </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
