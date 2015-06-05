@@ -1,5 +1,5 @@
-// Author: Tang Qiao
-// Date:   2012-3-2
+// Author: YanceyChan
+// Date:   20150603
 //
 // The macro is inspired from:
 //     http://www.yifeiyang.net/iphone-development-skills-of-the-debugging-chapter-2-save-the-log/
@@ -23,5 +23,6 @@
 
 #define APP_VERSION         [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 
-#define RGB(A, B, C)        [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+#define UIColorFromRGB(A, B, C)        [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
