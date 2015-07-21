@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>amwayAlert2</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>AmwayAlert *amwayalert = [[AmwayAlert alloc] initWithFrame:AMWAY_TIPRECT
+                                                          withTipsCode:resultcode withTipsmode:AmwayAlertConfirmOne];
+            [[AmwayAlertManager sharedManager] show:amwayalert];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>403FFCB9-A861-4F5D-A0A7-C3673EE3A0BD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>安利提示Alert（固定版）</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>安利提示Alert（固定版）</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
