@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>reuseSystemCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static NSString *reuseIdentify = &lt;#reuseID#&gt;;
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentify];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentify];
+    }
+    return cell;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1E20ADB5-800D-431B-8277-4622933C2738</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>重用cell(UITableViewCell)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>重用cell(UITableViewCell)——datasource方法使用</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
