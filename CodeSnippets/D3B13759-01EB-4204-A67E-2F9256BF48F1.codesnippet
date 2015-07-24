@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>myreuseSystemCell</string>
+	<string>myselfinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *reuseIdentify = &lt;#reuseID#&gt;;
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentify];
-    if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentify];
+	<string>self = [super init];
+    if (self) {
+        &lt;#add yourself attribute#&gt;
     }
-    return cell;</string>
+    return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1E20ADB5-800D-431B-8277-4622933C2738</string>
+	<string>D3B13759-01EB-4204-A67E-2F9256BF48F1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>重用cell(UITableViewCell)</string>
+	<string>self init模板</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MY重用cell(UITableViewCell)——datasource方法使用</string>
+	<string>MYself init模板</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
