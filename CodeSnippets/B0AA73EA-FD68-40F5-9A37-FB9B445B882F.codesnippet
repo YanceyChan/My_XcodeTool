@@ -10,6 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>AWPAlertView *alertView = [AWPAlertView showMessage:&lt;#Information#&gt; ofType:AWPAlertViewTypeInfo];
+alertView.completion = ^(id value){
+    &lt;#complete#&gt;
+};
             [self.view addSubview:alertView];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B0AA73EA-FD68-40F5-9A37-FB9B445B882F</string>
