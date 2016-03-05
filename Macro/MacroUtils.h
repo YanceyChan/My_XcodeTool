@@ -32,3 +32,6 @@
 #define DMLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
 #else
 #define DMLog(...) do { } while (0)
+
+//自动提示宏，输入一个object的属性，返回那个属性的字符串
+#define keyPath(objc,keyPath) @(((void)objc.keyPath,#keyPath))
