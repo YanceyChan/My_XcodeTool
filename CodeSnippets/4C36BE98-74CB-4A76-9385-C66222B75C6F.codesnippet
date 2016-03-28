@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>myEnum1</string>
+	<string>lazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef enum NSUInterger{
-    &lt;#MyEnumValueA#&gt;,
-    &lt;#MyEnumValueB#&gt;,
-}&lt;#DelegateName#&gt;;</string>
+	<string>- &lt;#name#&gt; {
+    if (!&lt;#name#&gt;) {
+        &lt;#name#&gt; = &lt;#create#&gt;;
+    }
+    return &lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4F517DA0-3568-46E3-9251-4CFD7870890F</string>
+	<string>4C36BE98-74CB-4A76-9385-C66222B75C6F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Enum1 format</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Enum1</string>
+	<string>Lazy Loading</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
