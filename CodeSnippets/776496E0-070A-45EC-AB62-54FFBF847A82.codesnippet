@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)p_Prepare {
-    [self p_setupUI];
-    [self p_setupNav];
+    [self p_SetupUI];
+    [self p_SetupNav];
 }
 
 - (void)p_SetupUI {
