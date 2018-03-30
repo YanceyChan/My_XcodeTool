@@ -12,6 +12,8 @@
 	<string>#pragma mark - Life Cycle 生命周期
 #pragma mark - Delegate 代理方法
 #pragma mark - Event Response 事件响应
+#pragma mark - NetWork 网络请求
+#pragma mark - UI 界面&amp;约束
 #pragma mark - Private Methods 私有方法
 #pragma mark - Getters and Setters</string>
 	<key>IDECodeSnippetIdentifier</key>
